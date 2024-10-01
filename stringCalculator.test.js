@@ -9,9 +9,9 @@ test('should return 1 for "1"', () => {
   expect(add("1")).toBe(1);
 });
 
-// test('should return 6 for "1,2,3"', () => {
-//   expect(add("1,2,3")).toBe(6);
-// });
+test('should return 6 for "1,2,3"', () => {
+  expect(add("1,2,3")).toBe(6);
+});
 
 // test('should handle new lines as delimiters', () => {
 //   expect(add("1\n2,3")).toBe(6);
